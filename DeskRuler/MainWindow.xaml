@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DeskRuler"
         mc:Ignorable="d"
-        Title="DeskRuler" Height="350" Width="525">
+        Title="DeskRuler" Height="205" Width="205"
+        WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="lens.png"></ImageBrush>
+    </Window.Background>
     <Grid>
         
     </Grid>
